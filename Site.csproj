@@ -69,7 +69,9 @@
   <ItemGroup>
     <Content Include="Default.aspx" />
     <Content Include="Demos\CodeBehind.aspx" />
+    <Content Include="Demos\ControlsDemo.aspx" />
     <Content Include="Demos\CssDemo.aspx" />
+    <Content Include="Demos\ListControls.aspx" />
     <Content Include="Demos\TableDemo.aspx" />
     <Content Include="Scripts\modernizr-2.8.3.js" />
     <Content Include="Styles\Styles.css" />
@@ -90,12 +92,26 @@
     <Compile Include="Demos\CodeBehind.aspx.designer.cs">
       <DependentUpon>CodeBehind.aspx</DependentUpon>
     </Compile>
+    <Compile Include="Demos\ControlsDemo.aspx.cs">
+      <DependentUpon>ControlsDemo.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Demos\ControlsDemo.aspx.designer.cs">
+      <DependentUpon>ControlsDemo.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Demos\CssDemo.aspx.cs">
       <DependentUpon>CssDemo.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="Demos\CssDemo.aspx.designer.cs">
       <DependentUpon>CssDemo.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Demos\ListControls.aspx.cs">
+      <DependentUpon>ListControls.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Demos\ListControls.aspx.designer.cs">
+      <DependentUpon>ListControls.aspx</DependentUpon>
     </Compile>
     <Compile Include="Demos\TableDemo.aspx.cs">
       <DependentUpon>TableDemo.aspx</DependentUpon>
